@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+img{
+    margin: auto;
+}
