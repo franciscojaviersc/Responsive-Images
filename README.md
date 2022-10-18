@@ -1,5 +1,8 @@
 # README #
 
+### Link to the project ###
+* https://franciscojaviersc.github.io/Responsive-Images/ 
+
 What is to make an image responisve? 
 A method for providing the browser with multiple image sources depending on display density, size of the image element in the page, or any number of other factors.
 
