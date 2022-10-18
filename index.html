@@ -9,9 +9,12 @@
 <body>
     <main>
         <div>
-            <img src="Perspective.jpeg" alt="landscape picture"
-            srcset="Perspective-160.jpeg 160w, Perspective-360.jpeg 360w, Perspective.jpeg 7000w"
-            >
+            <picture>
+                <source media="(max-width: 500px)" srcset="Perspective-Vertical.jpg">
+                <source media="(min-width: 500px)" srcset="Perspective-360.jpeg 500w,Perspective-700.jpeg 700w, Perspective-1400.jpeg 2000w,Perspective.jpeg 7000w">
+                <img src="Perspective.jpeg" alt="landscape picture">
+              </picture>
+            
         </div>
         
     </main>
